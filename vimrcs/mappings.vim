@@ -66,13 +66,8 @@ map k gk
 map 0 ^
 
 " Move a line of text using ALT+[jk] or leader+m[jk] on mac
-nmap <M-j> mz:m+<cr>`z
-nmap <M-k> mz:m-2<cr>`z
-
-if has("mac") || has("macunix")
-nmap <leader>mj <M-j>
-nmap <leader>mk <M-k>
-endif
+nmap <leader>mj mz:m+<cr>`z
+nmap <leader>mk mz:m-2<cr>`z
 
 " Bash like keys for the command line
 cnoremap <C-A>    <Home>
