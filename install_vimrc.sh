@@ -74,7 +74,7 @@ cat >> ~/.vimrc <<-EOF
 syntax enable
 set background=dark
 colorscheme solarized
-
+set t_Co=16
 EOF
 
 ## Install plugins
