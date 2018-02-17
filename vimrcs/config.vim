@@ -31,6 +31,8 @@ set autoread
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
 
+" Remove trailing whitespaces
+autocmd BufWritePre * %s/\s\+$//e
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
