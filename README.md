@@ -28,6 +28,7 @@ Mappings are avaliable at vimrc/mappings.vim
 * [taglist](https://github.com/vim-scripts/taglist.vim.git): The "Tag List" plugin is a source code browser for the Vim editor
 * [vim-go](https://github.com/fatih/vim-go.git): This plugin adds Go language support for Vim
 * [yankring](https://github.com/vim-scripts/YankRing.vim.git): It allows you to yank and delete things without worrying about losing the text that you yanked previously
+* [vim-gitgutter](https://github.com/airblade/vim-gitgutter): Shows which lines have been added, modified, or removed
 
 ## Color scheme
 * [solirized](https://github.com/altercation/vim-colors-solarized)
